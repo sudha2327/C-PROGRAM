@@ -16,12 +16,14 @@ class doublylinked{
 		void insert(){
 			int n,i;
 		cout<<"how many node values you going to insert"<<endl;
+		 cin>>n;
+		 
 		   list *addfirst=new list;
 		   cout<<"Enter the values for the node"<<endl;
-		   for(i=0;i<n;i++){
+		  
 		   
 		   cin>>addfirst->data;
-	}
+	
 		   if(first==NULL){
 		   	addfirst->left=NULL;
 		   		addfirst->right=NULL;
@@ -38,6 +40,7 @@ class doublylinked{
 		   	   	
 		   	 
 		   }
+	
 		}
 		void disp(){
 			node=first;
